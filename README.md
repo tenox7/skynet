@@ -2,7 +2,7 @@
 
 A Docker container that runs interactive OpenAI client accessible via telnet. Why? So you can use it from vintage operating systems.
 
-![screenshot][sco.png]
+![screenshot](sco.png)
 
 ## Requirements
 
