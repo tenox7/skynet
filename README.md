@@ -2,6 +2,8 @@
 
 A Docker container that runs interactive OpenAI client accessible via telnet. Why? So you can use it from vintage operating systems.
 
+![screenshot][sco.png]
+
 ## Requirements
 
 - [OpenAI API Key](https://platform.openai.com/docs/quickstart)
@@ -24,3 +26,7 @@ Sample `run.sh` is provided. Insert your own API Key.
 
 Telnet to port 4000 or whatever you set it to.
 
+## Security
+
+There is no authentication or access controls.
+It's advisable to run this in your own private network behind firewall.
